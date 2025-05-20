@@ -19,7 +19,7 @@ while True:
     annotated_frame = results[0].plot()
 
     # Display the frame
-    cv2.imshow("YOLOv8 Webcam", annotated_frame)
+    cv2.imshow("YOLO11n Webcam", annotated_frame)
 
     # Exit on 'q' key
     if cv2.waitKey(1) & 0xFF == ord('q'):
